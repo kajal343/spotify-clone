@@ -21,6 +21,7 @@ body{
     flex: 1;
     border-radius: 1rem;
     overflow: scroll;
+    margin-left: 0.75rem;
 }
 .music-player{
     background-color: black;
@@ -109,4 +110,27 @@ a{
     font-weight: 700;
     height: 2rem;
     margin-top: 0.3rem;
+}
+.sticky-nav{
+    position: sticky;
+    background-color: #121212;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0 0.5rem 0;
+}
+.nav-icon{
+    margin-left: 0.5rem;
+}
+.nav-icon img{
+    margin-left: 0.5rem;
+}
+.nav-menu button,i{
+    margin-right: 1rem;
+}
+@media(max-width:1000px){
+    .hide{
+        display: none;
+    }
 }
